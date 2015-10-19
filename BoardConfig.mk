@@ -32,7 +32,7 @@ TARGET_KERNEL_SOURCE := kernel/motorola/msm8226
 
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_msm
-TARGET_LIBINIT_DEFINES_FILE := $(DEVICE_PATH)/init/init_falcon.c
+TARGET_LIBINIT_DEFINES_FILE := $(DEVICE_PATH)/init/init_falcon.cpp
 TARGET_UNIFIED_DEVICE := true
 
 # Partitions
